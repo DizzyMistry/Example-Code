@@ -11,7 +11,7 @@ public class bridgeComputer : MonoBehaviour {
         source = GetComponent<AudioSource>(); 
     }
 
-    void OnTriggerEnter(Collider other) // display Ui message.
+    void OnTriggerEnter(Collider other) // display UI message.
     {
         UI_canvas_text.cText = "Press E to open doors down the path ahead";
     }
